@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lxZPHyq+0rI=",
+  "dgSpecHash": "5VJogbdl2IA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lunaj\\source\\repos\\CMDDemo\\WPFUI\\WPFUI.csproj",
+  "projectFilePath": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\WPFUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lunaj\\.nuget\\packages\\caliburn.micro\\4.0.212\\caliburn.micro.4.0.212.nupkg.sha512",
     "C:\\Users\\lunaj\\.nuget\\packages\\caliburn.micro.core\\4.0.212\\caliburn.micro.core.4.0.212.nupkg.sha512",

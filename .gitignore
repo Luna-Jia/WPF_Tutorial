@@ -1,0 +1,57 @@
+# Ignore Visual Studio temporary files, build results, and
+# other unnecessary files
+
+# User-specific files
+.vscode/
+*.rsuser
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+GeneratedMSBuildEditorConfig.editorconfig
+GeneratedInternalTypeHelper*
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio working directory
+.vs/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Reports
+*.buildlog
+
+# NCrunch
+.ncrunchsolution
+
+# Windows crash logs
+*.stackdump
+
+# Others
+*.log
+*.tlog
+*.cache

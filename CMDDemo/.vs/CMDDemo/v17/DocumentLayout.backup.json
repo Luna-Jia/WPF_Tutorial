@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WPFUI\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WPFUI\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\wpfui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\wpfui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\views\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\views\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPFUI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\MainWindow.xaml",
-              "RelativeToolTip": "WPFUI\\MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ShellView.xaml",
+              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\Views\\ShellView.xaml",
+              "RelativeDocumentMoniker": "WPFUI\\Views\\ShellView.xaml",
+              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\Views\\ShellView.xaml",
+              "RelativeToolTip": "WPFUI\\Views\\ShellView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-25T17:48:34.104Z",
+              "WhenOpened": "2024-09-25T23:20:24.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShellViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\ViewModels\\ShellViewModel.cs",
+              "RelativeDocumentMoniker": "WPFUI\\ViewModels\\ShellViewModel.cs",
+              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\ViewModels\\ShellViewModel.cs*",
+              "RelativeToolTip": "WPFUI\\ViewModels\\ShellViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:17:40.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WPFUI",
+              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\WPFUI.csproj",
+              "RelativeDocumentMoniker": "WPFUI\\WPFUI.csproj",
+              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\WPFUI.csproj*",
+              "RelativeToolTip": "WPFUI\\WPFUI.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-25T23:04:45.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bootstrapper.cs",
+              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\Bootstrapper.cs",
+              "RelativeDocumentMoniker": "WPFUI\\Bootstrapper.cs",
+              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\Bootstrapper.cs*",
+              "RelativeToolTip": "WPFUI\\Bootstrapper.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:05:54.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPFUI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPFUI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T17:48:33.655Z"
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\App.xaml",
+              "RelativeDocumentMoniker": "WPFUI\\App.xaml",
+              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\App.xaml*",
+              "RelativeToolTip": "WPFUI\\App.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-25T23:00:28.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

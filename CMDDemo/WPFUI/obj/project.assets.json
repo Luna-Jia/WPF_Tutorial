@@ -985,11 +985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lunaj\\source\\repos\\CMDDemo\\WPFUI\\WPFUI.csproj",
+      "projectUniqueName": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\WPFUI.csproj",
       "projectName": "WPFUI",
-      "projectPath": "C:\\Users\\lunaj\\source\\repos\\CMDDemo\\WPFUI\\WPFUI.csproj",
+      "projectPath": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\WPFUI.csproj",
       "packagesPath": "C:\\Users\\lunaj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lunaj\\source\\repos\\CMDDemo\\WPFUI\\obj\\",
+      "outputPath": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",

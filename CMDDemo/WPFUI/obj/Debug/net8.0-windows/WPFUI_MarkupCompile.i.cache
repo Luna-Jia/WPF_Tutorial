@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\lunaj\source\repos\CMDDemo\WPFUI\obj\Debug\net8.0-windows\
+C:\Users\lunaj\source\repos\WPF_Tutorial\CMDDemo\WPFUI\obj\Debug\net8.0-windows\
 WPFUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\lunaj\source\repos\CMDDemo\WPFUI\App.xaml
-11407045341
+C:\Users\lunaj\source\repos\WPF_Tutorial\CMDDemo\WPFUI\App.xaml
+1-1351704627
 
-61200061286
+8-410291325
 2021533254914
-MainWindow.xaml;
+Views\ShellView.xaml;
 
 False
 
