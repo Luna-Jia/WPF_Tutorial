@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lunaj\\source\\repos\\WPFDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26657B51-58E6-466A-8C86-7BB850FBB804}|WPFDemo\\WPFDemo.csproj|c:\\users\\lunaj\\source\\repos\\wpfdemo\\wpfdemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26657B51-58E6-466A-8C86-7BB850FBB804}|WPFDemo\\WPFDemo.csproj|solutionrelative:wpfdemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26657B51-58E6-466A-8C86-7BB850FBB804}|WPFDemo\\WPFDemo.csproj|c:\\users\\lunaj\\source\\repos\\wpfdemo\\wpfdemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26657B51-58E6-466A-8C86-7BB850FBB804}|WPFDemo\\WPFDemo.csproj|solutionrelative:wpfdemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPFDemo\\WPFDemo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFDemo\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPFDemo\\WPFDemo\\MainWindow.xaml*",
+              "RelativeToolTip": "WPFDemo\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-24T22:11:56.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 126,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPFDemo\\WPFDemo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFDemo\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPFDemo\\WPFDemo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFDemo\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAADMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T22:11:55.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
