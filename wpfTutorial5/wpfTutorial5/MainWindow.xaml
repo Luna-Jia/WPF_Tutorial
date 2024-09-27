@@ -20,5 +20,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
+        <Rectangle Fill="Red"/>
+
     </Grid>
 </Window>
