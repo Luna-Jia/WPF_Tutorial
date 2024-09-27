@@ -21,6 +21,7 @@
         </Grid.ColumnDefinitions>
 
         <Rectangle Fill="Red"/>
+        <Rectangle Grid.Row="1" Grid.Column="1" Fill="Blue"/>
 
     </Grid>
 </Window>
