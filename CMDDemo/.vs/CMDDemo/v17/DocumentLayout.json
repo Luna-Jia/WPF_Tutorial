@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\views\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\views\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|solutionrelative:wpfui\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57DFA5AA-A5B4-4997-A081-9908BCE04EBE}|WPFUI\\WPFUI.csproj|c:\\users\\lunaj\\source\\repos\\wpf_tutorial\\cmddemo\\wpfui\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 376,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PersonModel.cs",
               "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\Models\\PersonModel.cs",
               "RelativeDocumentMoniker": "WPFUI\\Models\\PersonModel.cs",
@@ -47,12 +47,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ShellView.xaml",
               "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\Views\\ShellView.xaml",
               "RelativeDocumentMoniker": "WPFUI\\Views\\ShellView.xaml",
-              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\Views\\ShellView.xaml*",
-              "RelativeToolTip": "WPFUI\\Views\\ShellView.xaml*",
+              "ToolTip": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\Views\\ShellView.xaml",
+              "RelativeToolTip": "WPFUI\\Views\\ShellView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-25T23:20:24.319Z",
               "EditorCaption": ""
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ShellViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial\\CMDDemo\\WPFUI\\ViewModels\\ShellViewModel.cs",
               "RelativeDocumentMoniker": "WPFUI\\ViewModels\\ShellViewModel.cs",
