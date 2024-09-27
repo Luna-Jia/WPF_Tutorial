@@ -8,15 +8,30 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
             <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="20"/>
 
         </Grid.RowDefinitions>
 
-
+        <!-- Menu Bar-->
         <Rectangle Fill="Red"/>
-        <Rectangle Grid.Row="1" Fill="Blue"/>
+        
+        <!-- Content Pane -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Fill="LightGray"/>
+            <Rectangle Grid.Column="1" Fill="DarkGray"/>
+            <Rectangle Grid.Column="2" Fill="Gray"/>
+
+        </Grid>
+        
+        <!-- Footer -->
         <Rectangle Grid.Row="2" Fill="Green"/>
 
     </Grid>
