@@ -11,17 +11,13 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-            <RowDefinition/>
 
         </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
 
         <Rectangle Fill="Red"/>
-        <Rectangle Grid.Row="1" Grid.Column="1" Fill="Blue"/>
+        <Rectangle Grid.Row="1" Fill="Blue"/>
+        <Rectangle Grid.Row="2" Fill="Green"/>
 
     </Grid>
 </Window>
