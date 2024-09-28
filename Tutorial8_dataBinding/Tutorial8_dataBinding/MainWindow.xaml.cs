@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Windows;
 
 namespace Tutorial8_dataBinding
@@ -22,14 +23,19 @@ namespace Tutorial8_dataBinding
             set 
             { 
                 boundText = value; 
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("BoundText"));
-                // OnPropertyChanged();
+                //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("BoundText"));
+                OnPropertyChanged();
             }
         }
 
         private void btnSet_Click(object sender, RoutedEventArgs e)
         {
             BoundText = "Hello World";
+        }
+
+        private void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
