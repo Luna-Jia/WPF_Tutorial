@@ -18,7 +18,10 @@ namespace tutorial7CustomTextboxControl.View.UsersControls
             set 
             { 
                 placeholder = value; 
+
+                // do not do this!!
                 tbPlaceholder.Text = placeholder;
+                // OnPropertyChanged()
 
             }
         }
