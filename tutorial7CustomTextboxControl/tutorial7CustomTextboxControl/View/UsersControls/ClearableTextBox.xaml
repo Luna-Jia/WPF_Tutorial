@@ -6,12 +6,15 @@
              xmlns:local="clr-namespace:tutorial7CustomTextboxControl.View.UsersControls"
              mc:Ignorable="d" 
              d:DesignHeight="40" d:DesignWidth="250">
-    <Grid>
-        <TextBox x:Name="txtInput" VerticalContentAlignment="Center" FontSize="16" FontWeight="Light"/>
+    <Grid Background="White">
+        <TextBox x:Name="txtInput" VerticalContentAlignment="Center" FontSize="16" 
+                 FontWeight="Light" Background="Transparent"/>
         <TextBlock x:Name="tbPlaceholder" Text="Hello" FontSize="16" FontWeight="Light"
-                   Foreground="DarkGray" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                   Foreground="DarkGray" VerticalAlignment="Center" Margin="5,0,0,0"
+                   Panel.ZIndex="0"/>
         <Button x:Name="btnClear" Width="30" HorizontalAlignment="Right" Content="X"
-                Background="Transparent" Foreground="LightGray" BorderThickness="0"/>
+                Background="Transparent" Foreground="LightGray" BorderThickness="0"
+                Click="btnClear_Click"/>
 
     </Grid>
 </UserControl>
