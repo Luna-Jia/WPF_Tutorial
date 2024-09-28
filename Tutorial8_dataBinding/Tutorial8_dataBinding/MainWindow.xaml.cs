@@ -22,6 +22,7 @@ namespace Tutorial8_dataBinding
             set 
             { 
                 boundText = value; 
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("BoundText"));
                 // OnPropertyChanged();
             }
         }
