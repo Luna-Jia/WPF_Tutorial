@@ -24,5 +24,10 @@ namespace tutorial7CustomTextboxControl.View.UsersControls
         {
             InitializeComponent();
         }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
