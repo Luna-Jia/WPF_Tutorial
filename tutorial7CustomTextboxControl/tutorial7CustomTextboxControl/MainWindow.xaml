@@ -4,9 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tutorial7CustomTextboxControl"
+        xmlns:userControls="clr-namespace:tutorial7CustomTextboxControl.View.UsersControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="300">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <userControls:ClearableTextBox Grid.Row="1" Width="250" Height="40"/>
+        <userControls:ClearableTextBox Grid.Row="2" Width="250" Height="40"/>
+        <userControls:ClearableTextBox Grid.Row="3" Width="250" Height="40"/>
+        <userControls:ClearableTextBox Grid.Row="4" Width="250" Height="40"/>
 
     </Grid>
 </Window>
