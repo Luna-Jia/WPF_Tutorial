@@ -10,6 +10,20 @@ namespace tutorial7CustomTextboxControl.View.UsersControls
             InitializeComponent();
         }
 
+        private string placeholder;
+
+        public string Placeholder
+        {
+            get { return placeholder; }
+            set 
+            { 
+                placeholder = value; 
+                tbPlaceholder.Text = placeholder;
+
+            }
+        }
+
+
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
             txtInput.Clear();
