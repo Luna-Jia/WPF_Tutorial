@@ -27,5 +27,9 @@ namespace Tutorial8_dataBinding
             }
         }
 
+        private void btnSet_Click(object sender, RoutedEventArgs e)
+        {
+            BoundText = "Hello World";
+        }
     }
 }
