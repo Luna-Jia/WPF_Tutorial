@@ -22,7 +22,11 @@
             </Expander>
         </StackPanel>
 
-        <Rectangle Grid.Column="1" Fill="DarkGray" Width="125" />
+        <Expander Grid.Column="1" ExpandDirection="Left">
+            <Rectangle  Fill="DarkGray" Width="125" />
+
+        </Expander>
+
 
 
 
