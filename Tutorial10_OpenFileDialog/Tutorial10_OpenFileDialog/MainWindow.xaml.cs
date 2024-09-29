@@ -17,6 +17,7 @@ namespace Tutorial10_OpenFileDialog
         {
             OpenFileDialog fileDialog = new OpenFileDialog();
             fileDialog.Filter = "C# Source Files | *.cs";
+            fileDialog.InitialDirectory = "C:\\Users\\lunaj\\source\\repos\\WPF_Tutorial";
 
             bool? success = fileDialog.ShowDialog();
             if (success == true)
