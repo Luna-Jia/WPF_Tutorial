@@ -15,9 +15,21 @@ namespace Tutorial10_OpenFileDialog
 
         private void btnFire_Click(object sender, RoutedEventArgs e)
         {
-            OpenFolderDialog fileDiolog = new OpenFolderDialog();
-            fileDiolog.ShowDialog();
+            OpenFolderDialog folderDialog = new OpenFolderDialog();
 
+            bool? success = folderDialog.ShowDialog();
+            if (success == true)
+            {
+               // string path = folderDialog.FolderName;
+               // tbInfo.Text = path;
+
+                string folderName = folderDialog.SafeFolderName;
+                tbInfo.Text = folderName;
+            }
+            else
+            {
+                MessageBox.Show("No folder selected");
+            }
         }
     }
 }
