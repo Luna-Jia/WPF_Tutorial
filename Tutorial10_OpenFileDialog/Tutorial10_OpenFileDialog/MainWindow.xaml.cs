@@ -16,6 +16,7 @@ namespace Tutorial10_OpenFileDialog
         private void btnFire_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.Filter = "C# Source Files | *.cs";
 
             bool? success = fileDialog.ShowDialog();
             if (success == true)
