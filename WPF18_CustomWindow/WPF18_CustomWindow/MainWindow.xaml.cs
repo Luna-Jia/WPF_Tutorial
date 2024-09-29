@@ -20,16 +20,25 @@ namespace WPF18_CustomWindow
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
-
+            Close(); // Close the current window
+            // Application.Current.Shutdown(); // Close the entire application
         }
 
         private void btnMaximize_Click(object sender, RoutedEventArgs e)
         {
-
+            if (WindowState == WindowState.Maximized)
+            {
+                WindowState = WindowState.Normal;
+            }
+            else
+            {
+                WindowState = WindowState.Maximized;
+            }
         }
 
         private void btnMinimize_Click(object sender, RoutedEventArgs e)
         {
+            WindowState = WindowState.Minimized;
 
         }
     }
