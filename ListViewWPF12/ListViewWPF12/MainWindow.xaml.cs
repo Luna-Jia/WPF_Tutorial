@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.ObjectModel;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -19,40 +20,34 @@ namespace ListViewWPF12
     {
         public MainWindow()
         {
+            DataContext = this;
+            entries = new ObservableCollection<string>();
+
             InitializeComponent();
-            lvEntries.Items.Add("a");
-            lvEntries.Items.Add("b");
-            lvEntries.Items.Add("c");
-            //lvEntries.Items.Add("a3");
+
         }
+
+        private ObservableCollection<string> entries;
+
+        public ObservableCollection<string> Entries
+        {
+            get { return entries; }
+            set { entries = value; }
+        }
+
 
         private void tnAdd_Click(object sender, RoutedEventArgs e)
         {
-            lvEntries.Items.Add(txtEntry.Text);
-            txtEntry.Clear();   
-
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            //int index = lvEntries.SelectedIndex;
-            //lvEntries.Items.RemoveAt(index);
-
-            var items = lvEntries.SelectedItems;
-   
-            var result = MessageBox.Show($"Are you sure you want to delete {items.Count} items?", "Delete Item", MessageBoxButton.YesNo, MessageBoxImage.Question);
-            if (result == MessageBoxResult.Yes)
-            {
-                var itemsList = new ArrayList(items);
-                foreach(var item in itemsList)
-                    lvEntries.Items.Remove(item);
-            }
-
+ 
         }
 
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
-            lvEntries.Items.Clear();
+
         }
     }
 }
