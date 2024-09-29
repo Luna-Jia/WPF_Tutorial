@@ -15,20 +15,21 @@ namespace Tutorial10_OpenFileDialog
 
         private void btnFire_Click(object sender, RoutedEventArgs e)
         {
-            OpenFolderDialog folderDialog = new OpenFolderDialog();
+            OpenFileDialog fileDialog = new OpenFileDialog();
 
-            bool? success = folderDialog.ShowDialog();
+            bool? success = fileDialog.ShowDialog();
             if (success == true)
             {
-               // string path = folderDialog.FolderName;
-               // tbInfo.Text = path;
+                string path = fileDialog.FileName;
+                tbInfo.Text = path;
 
-                string folderName = folderDialog.SafeFolderName;
-                tbInfo.Text = folderName;
+               // string folderName = fileDialog.SafeFileName;
+               // tbInfo.Text = folderName;
             }
             else
             {
-                MessageBox.Show("No folder selected");
+                tbInfo.Text = "No file selected";
+                // MessageBox.Show("No file selected");
             }
         }
     }
