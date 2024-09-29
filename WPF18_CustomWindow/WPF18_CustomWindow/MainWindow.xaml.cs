@@ -17,5 +17,20 @@ namespace WPF18_CustomWindow
         {
             DragMove();
         }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMaximize_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMinimize_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
