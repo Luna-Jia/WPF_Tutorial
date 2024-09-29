@@ -19,6 +19,26 @@ namespace ListViewWPF12
         public MainWindow()
         {
             InitializeComponent();
+            //lvEntries.Items.Add("a");
+            //lvEntries.Items.Add("a1");
+            //lvEntries.Items.Add("a2");
+            //lvEntries.Items.Add("a3");
+        }
+
+        private void tnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            lvEntries.Items.Add(txtEntry.Text);
+
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

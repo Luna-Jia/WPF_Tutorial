@@ -17,5 +17,13 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
+        <TextBox Name="txtEntry" Height="35" FontSize="16" Margin="20,0,0,0" />
+        <Button Grid.Column="1" Name="btnAdd" Width="50" Height="40" Content="Add" Click="tnAdd_Click" HorizontalAlignment="Left" Margin="30,0,0,0"/>
+        <Button Grid.Column="1" Name="btnDelete" Width="50" Height="40" Content="Delete" Click="btnDelete_Click" HorizontalAlignment="Left" Margin="100,0,0,0"/>
+        <Button Grid.Column="1" Name="btnClear" Width="50" Height="40" Content="Clear" Click="btnClear_Click" HorizontalAlignment="Left" Margin="170,0,0,0"/>
+        
+
+        <ListView Name="lvEntries" Grid.Row="1" Grid.ColumnSpan="2" />
+
     </Grid>
 </Window>
