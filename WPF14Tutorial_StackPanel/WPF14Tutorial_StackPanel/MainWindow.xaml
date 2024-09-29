@@ -20,13 +20,33 @@
         </StackPanel>
 
         <StackPanel Grid.Row="1" Margin="20">
-            
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,5">
+                <Label Content="Label: "/>
+                <TextBox Width="150"/>
+                <Button Content="Go"  Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,5">
+                <Label Content="Label: "/>
+                <TextBox Width="150"/>
+                <Button Content="Go" Margin="10,0,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,5">
+                <Label Content="Label: "/>
+                <TextBox Width="150"/>
+                <Button Content="Go"  Margin="10,0,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,5">
+                <Label Content="Label: "/>
+                <TextBox Width="150"/>
+                <Button Content="Go"  Margin="10,0,0,0"/>
+            </StackPanel>
+
+
             <TextBox Width="150" Height="30" Margin="2" />
             <TextBox Width="150" Height="30" Margin="2" />
-            <TextBox Width="150" Height="30" Margin="2" />
-            <TextBox Width="150" Height="30" Margin="2" />
-            <TextBox Width="150" Height="30" Margin="2" />
-            <TextBox Width="150" Height="30" Margin="2" />
+
 
 
         </StackPanel>
