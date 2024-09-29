@@ -34,8 +34,15 @@ namespace ListViewWPF12
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            int index = lvEntries.SelectedIndex;
-            lvEntries.Items.RemoveAt(index);
+            //int index = lvEntries.SelectedIndex;
+            //lvEntries.Items.RemoveAt(index);
+
+            object item = lvEntries.SelectedItem;
+            var result = MessageBox.Show("Are you sure you want to delete this item?", "Delete Item", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (result == MessageBoxResult.Yes)
+            {
+                lvEntries.Items.Remove(item);
+            }
 
         }
 
