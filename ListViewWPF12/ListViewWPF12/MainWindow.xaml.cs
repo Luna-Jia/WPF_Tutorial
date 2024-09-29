@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Collections;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -37,11 +38,14 @@ namespace ListViewWPF12
             //int index = lvEntries.SelectedIndex;
             //lvEntries.Items.RemoveAt(index);
 
-            object item = lvEntries.SelectedItem;
-            var result = MessageBox.Show("Are you sure you want to delete this item?", "Delete Item", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            var items = lvEntries.SelectedItems;
+   
+            var result = MessageBox.Show($"Are you sure you want to delete {items.Count} items?", "Delete Item", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (result == MessageBoxResult.Yes)
             {
-                lvEntries.Items.Remove(item);
+                var itemsList = new ArrayList(items);
+                foreach(var item in itemsList)
+                    lvEntries.Items.Remove(item);
             }
 
         }
