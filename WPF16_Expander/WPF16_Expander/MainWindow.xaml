@@ -20,9 +20,11 @@
                 <TextBlock Text="Description" FontSize="16" />
 
             </Expander>
+            <Button x:Name="btnDetails" Width="100" Height="25" Content="Details"
+                    Click="btnDetails_Click"/>
         </StackPanel>
 
-        <Expander Background="DarkGray" BorderThickness="0" Grid.Column="1" ExpandDirection="Left">
+        <Expander Name="expanderDetails" Background="DarkGray" BorderThickness="0" Grid.Column="1" ExpandDirection="Left">
             <Rectangle  Fill="DarkGray" Width="125" />
 
         </Expander>

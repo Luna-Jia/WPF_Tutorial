@@ -20,5 +20,10 @@ namespace WPF16_Expander
         {
             InitializeComponent();
         }
+
+        private void btnDetails_Click(object sender, RoutedEventArgs e)
+        {
+            expanderDetails.IsExpanded = !expanderDetails.IsExpanded;
+        }
     }
 }
