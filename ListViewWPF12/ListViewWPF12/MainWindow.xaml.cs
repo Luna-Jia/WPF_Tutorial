@@ -38,15 +38,19 @@ namespace ListViewWPF12
 
         private void tnAdd_Click(object sender, RoutedEventArgs e)
         {
+            Entries.Add(txtEntry.Text);
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
- 
+            string selectedItem = (string)lvEntries.SelectedItem;
+            Entries.Remove(selectedItem);
+
         }
 
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
+            Entries.Clear();
 
         }
     }
