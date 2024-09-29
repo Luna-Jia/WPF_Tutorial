@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tutorial10_OpenFileDialog"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="250" Width="600">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Button Name="btnFire" Content="Fire" Width="100" Height="40" Click="btnFire_Click" />
+        <TextBox Name="tbInfo" Grid.Row="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" />
 
     </Grid>
 </Window>
