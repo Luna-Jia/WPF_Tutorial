@@ -20,5 +20,10 @@ namespace Tutorial9_MessageBox
         {
             InitializeComponent();
         }
+
+        private void btnFire_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
