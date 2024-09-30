@@ -8,8 +8,10 @@
         Title="MainWindow" Height="300" Width="300">
     <Grid>
         <StackPanel>
-            <Button Name="btnNormal" Width="100" Height="40" Content="Normal" Margin="5" />
-            <Button Name="btnModal" Width="100" Height="40" Content="Modal" Margin="5" />
+            <Button Name="btnNormal" Width="100" Height="40" Content="Normal" Margin="5" 
+                    Click="btnNormal_Click"/>
+            <Button Name="btnModal" Width="100" Height="40" Content="Modal" Margin="5" 
+                    Click="btnModal_Click"/>
             <TextBox Name="txtInput" Width="200" Height="40" FontSize="20" />
         </StackPanel>
 
