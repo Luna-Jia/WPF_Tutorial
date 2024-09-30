@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="ModalWindow" Height="300" Width="300">
     <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <TextBox x:Name="txtInput" Width="200" Height="40" Margin="5"
+                     TextChanged="txtInput_TextChanged"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="btnOK" Content="OK" Width="50" Height="40" Margin="2"
+                        Click="btnOK_Click" IsEnabled="False"/>
+                <Button x:Name="btnCancel" Content="Cancel" Width="50" Height="40" 
+                        Click="btnCancel_Click" Margin="20,0,0,0"/>
+            </StackPanel>
+
+        </StackPanel>
         
     </Grid>
 </Window>

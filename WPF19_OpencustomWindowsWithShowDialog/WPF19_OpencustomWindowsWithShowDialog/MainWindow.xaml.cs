@@ -22,6 +22,11 @@ namespace WPF19_OpencustomWindowsWithShowDialog
             ModalWindow modalWindow = new ModalWindow();
             modalWindow.ShowDialog();
 
+            if (modalWindow.Success)
+            {
+                txtInput.Text = modalWindow.Input;
+            }
+
         }
     }
 }
