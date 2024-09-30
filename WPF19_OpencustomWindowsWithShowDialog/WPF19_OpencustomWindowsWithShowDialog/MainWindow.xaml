@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF19_OpencustomWindowsWithShowDialog"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300">
+        Title="MainWindow" Height="400" Width="400">
     <Grid>
         <StackPanel>
             <Button Name="btnNormal" Width="100" Height="40" Content="Normal" Margin="5" 

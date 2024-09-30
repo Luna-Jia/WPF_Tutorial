@@ -8,8 +8,9 @@ namespace WPF19_OpencustomWindowsWithShowDialog.View
 
         public bool Success { get; set; }
         public string Input { get; set; }
-        public ModalWindow()
+        public ModalWindow(Window parentWindow)
         {
+            Owner = parentWindow;
             InitializeComponent();
         }
 

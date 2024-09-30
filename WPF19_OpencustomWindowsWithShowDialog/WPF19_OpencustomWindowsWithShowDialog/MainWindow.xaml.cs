@@ -19,7 +19,7 @@ namespace WPF19_OpencustomWindowsWithShowDialog
 
         private void btnModal_Click(object sender, RoutedEventArgs e)
         {
-            ModalWindow modalWindow = new ModalWindow();
+            ModalWindow modalWindow = new ModalWindow(this);
             modalWindow.ShowDialog();
 
             if (modalWindow.Success)
